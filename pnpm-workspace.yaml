@@ -1,0 +1,3 @@
+onlyBuiltDependencies:
+  - '@azure/msal-node-extensions'
+  - keytar
