@@ -326,13 +326,17 @@ export async function emailV1(
     </body>
     </html>
     `
-    );/*
+    );
     await sendEmail(
         "Midd Sprints Weekly Report: " + formattedWeekBefore + "-" + formattedDate,
         body,
-        ["slide4von1997@gmail.com", "spantzer@middlebury.edu", "ryanpthompson2005@gmail.com", "ethanagnew31@gmail.com"]
-    );*/
+        ["slide4von1997@gmail.com", "parkerloups@icloud.com", "zachmckay81@gmail.com" ]
+    );
 }
+/*        ["slide4von1997@gmail.com", "spantzer@middlebury.edu", "ryanpthompson2005@gmail.com",
+             "ethanagnew31@gmail.com", "cweihs06@gmail.com", 'hstonebob@gmail.com', 
+            "wyattrlawton@gmail.com", "nategardnern@gmail.com" ]*/
+// "ryanpthompson2005@gmail.com", "ethanagnew31@gmail.com"
 function formatRank(
     current: number | undefined,
     former: number | undefined
@@ -353,10 +357,10 @@ function formatRank(
 
     if (current < former) {
         color = "green";
-        symbol = "↑";
+        symbol = "▲";
     } else if (current > former) {
         color = "red";
-        symbol = "↓";
+        symbol = "▼";
     } else {
         color = "gray";
         symbol = "-";

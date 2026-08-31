@@ -128,7 +128,7 @@ export async function scrapeMiddTF(page: Page, outdoor: boolean) {
                 }).filter(row => (row.team ?? "") === "Middlebury");
         }
         await homePage.goto(outdoor);
-        return { leaderboards, merged };
+        return merged ;
     } else {
         await topPerformancesPage.goto();
         const [topFive60,
@@ -244,7 +244,7 @@ export async function scrapeMiddTF(page: Page, outdoor: boolean) {
                 }).filter(row => (row.team ?? "") === "Middlebury");
         }
         await homePage.goto(outdoor);
-        return { leaderboards, merged };
+        return merged;
     }
 }
 

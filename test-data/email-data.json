@@ -1,0 +1,646 @@
+{
+  "rankings": {
+    "100": [
+      {
+        "nationalRank": 99,
+        "formerNationalRank": 101,
+        "nescacRank": 3,
+        "formerNescacRank": 5,
+        "NERank": 8,
+        "formerNERank": 11,
+        "athlete": "Harvey Jr, Donnell",
+        "time": "10.64",
+        "team": "Middlebury",
+        "date": "Apr 25, 2026"
+      },
+      {
+        "nationalRank": 276,
+        "formerNationalRank": 273,
+        "nescacRank": 14,
+        "formerNescacRank": 20,
+        "NERank": 30,
+        "formerNERank": 34,
+        "athlete": "Castanon, Aidan",
+        "time": "10.85",
+        "team": "Middlebury",
+        "date": "Apr 25, 2026"
+      },
+      {
+        "nationalRank": 390,
+        "formerNationalRank": 394,
+        "nescacRank": 19,
+        "formerNescacRank": 21,
+        "NERank": 41,
+        "formerNERank": 44,
+        "athlete": "Hoiland, Sebastian",
+        "time": "10.94",
+        "team": "Middlebury",
+        "date": "Apr 25, 2026"
+      },
+      {
+        "nescacRank": 24,
+        "formerNescacRank": 24,
+        "NERank": 59,
+        "formerNERank": 59,
+        "athlete": "Pantzer, Sebastian",
+        "time": "11.05",
+        "team": "Middlebury",
+        "date": "Apr 11, 2026"
+      },
+      {
+        "nescacRank": 26,
+        "formerNescacRank": 26,
+        "NERank": 62,
+        "formerNERank": 62,
+        "athlete": "Lawton, Wyatt",
+        "time": "11.06",
+        "team": "Middlebury",
+        "date": "Apr 11, 2026"
+      },
+      {
+        "nescacRank": 26,
+        "formerNescacRank": 26,
+        "NERank": 62,
+        "formerNERank": 62,
+        "athlete": "Smith, Caleb",
+        "time": "11.06",
+        "team": "Middlebury",
+        "date": "Apr 10, 2026"
+      },
+      {
+        "nescacRank": 30,
+        "formerNescacRank": 30,
+        "NERank": 69,
+        "formerNERank": 69,
+        "athlete": "Bobowick, Hayden",
+        "time": "11.08",
+        "team": "Middlebury",
+        "date": "Apr 18, 2026"
+      },
+      {
+        "nescacRank": 33,
+        "formerNescacRank": 33,
+        "NERank": 80,
+        "formerNERank": 80,
+        "athlete": "Kington, Emerson",
+        "time": "11.13",
+        "team": "Middlebury",
+        "date": "Apr 11, 2026"
+      },
+      {
+        "nescacRank": 44,
+        "formerNescacRank": 44,
+        "NERank": 125,
+        "formerNERank": 125,
+        "athlete": "Nelson, Jedidiah",
+        "time": "11.34",
+        "team": "Middlebury",
+        "date": "Apr 18, 2026"
+      },
+      {
+        "nescacRank": 45,
+        "formerNescacRank": 45,
+        "NERank": 127,
+        "formerNERank": 127,
+        "athlete": "Agnew, Ethan",
+        "time": "11.35",
+        "team": "Middlebury",
+        "date": "Apr 4, 2026"
+      },
+      {
+        "nescacRank": 56,
+        "formerNescacRank": 56,
+        "NERank": 157,
+        "formerNERank": 157,
+        "athlete": "Gardner, Nathaniel",
+        "time": "11.44",
+        "team": "Middlebury",
+        "date": "Mar 21, 2026"
+      },
+      {
+        "nescacRank": 72,
+        "formerNescacRank": 72,
+        "NERank": 203,
+        "formerNERank": 203,
+        "athlete": "Warmack, Toby",
+        "time": "11.55",
+        "team": "Middlebury",
+        "date": "Apr 4, 2026"
+      },
+      {
+        "nescacRank": 82,
+        "formerNescacRank": 82,
+        "NERank": 236,
+        "formerNERank": 236,
+        "athlete": "Mcstay, Drew",
+        "time": "11.63",
+        "team": "Middlebury",
+        "date": "Apr 11, 2026"
+      },
+      {
+        "nescacRank": 93,
+        "formerNescacRank": 93,
+        "NERank": 289,
+        "formerNERank": 289,
+        "athlete": "Marzella, Paul",
+        "time": "11.81",
+        "team": "Middlebury",
+        "date": "Apr 11, 2026"
+      },
+      {
+        "nescacRank": 104,
+        "formerNescacRank": 104,
+        "NERank": 388,
+        "formerNERank": 388,
+        "athlete": "Skilton, Benoit",
+        "time": "12.64",
+        "team": "Middlebury",
+        "date": "Apr 4, 2026"
+      }
+    ],
+    "200": [
+      {
+        "nationalRank": 105,
+        "formerNationalRank": 105,
+        "nescacRank": 5,
+        "formerNescacRank": 5,
+        "NERank": 6,
+        "formerNERank": 6,
+        "athlete": "Harvey Jr, Donnell",
+        "time": "21.60",
+        "team": "Middlebury",
+        "date": "Apr 25, 2026"
+      },
+      {
+        "nationalRank": 145,
+        "formerNationalRank": 150,
+        "nescacRank": 10,
+        "formerNescacRank": 10,
+        "NERank": 15,
+        "formerNERank": 15,
+        "athlete": "Caspar, Joseph",
+        "time": "21.71",
+        "team": "Middlebury",
+        "date": "Mar 21, 2026"
+      },
+      {
+        "nationalRank": 246,
+        "formerNationalRank": 230,
+        "nescacRank": 13,
+        "formerNescacRank": 21,
+        "NERank": 21,
+        "formerNERank": 23,
+        "athlete": "Pantzer, Sebastian",
+        "time": "21.94",
+        "team": "Middlebury",
+        "date": "Mar 21, 2026"
+      },
+      {
+        "nationalRank": 299,
+        "formerNationalRank": 294,
+        "nescacRank": 16,
+        "formerNescacRank": 22,
+        "NERank": 26,
+        "formerNERank": 28,
+        "athlete": "Kington, Emerson",
+        "time": "22.06",
+        "team": "Middlebury",
+        "date": "Mar 21, 2026"
+      },
+      {
+        "nationalRank": 484,
+        "formerNationalRank": 487,
+        "nescacRank": 25,
+        "formerNescacRank": 27,
+        "NERank": 52,
+        "formerNERank": 54,
+        "athlete": "Bobowick, Hayden",
+        "time": "22.32",
+        "team": "Middlebury",
+        "date": "Mar 21, 2026"
+      },
+      {
+        "nescacRank": 27,
+        "formerNescacRank": 27,
+        "NERank": 56,
+        "formerNERank": 56,
+        "athlete": "Weihs, Cole",
+        "time": "22.37",
+        "team": "Middlebury",
+        "date": "Mar 21, 2026"
+      },
+      {
+        "nescacRank": 30,
+        "formerNescacRank": 30,
+        "NERank": 59,
+        "formerNERank": 59,
+        "athlete": "Lawton, Wyatt",
+        "time": "22.39",
+        "team": "Middlebury",
+        "date": "Mar 27, 2026"
+      },
+      {
+        "nescacRank": 46,
+        "formerNescacRank": 46,
+        "NERank": 100,
+        "formerNERank": 100,
+        "athlete": "Thompson, Ryan",
+        "time": "22.85",
+        "team": "Middlebury",
+        "date": "Mar 21, 2026"
+      },
+      {
+        "nescacRank": 57,
+        "formerNescacRank": 57,
+        "NERank": 159,
+        "formerNERank": 159,
+        "athlete": "Nelson, Jedidiah",
+        "time": "23.32",
+        "team": "Middlebury",
+        "date": "Mar 21, 2026"
+      },
+      {
+        "nescacRank": 75,
+        "formerNescacRank": 75,
+        "NERank": 222,
+        "formerNERank": 222,
+        "athlete": "Bishop, Lachlan",
+        "time": "23.72",
+        "team": "Middlebury",
+        "date": "Apr 18, 2026"
+      },
+      {
+        "nescacRank": 94,
+        "formerNescacRank": 94,
+        "NERank": 302,
+        "formerNERank": 302,
+        "athlete": "Agnew, Ethan",
+        "time": "24.31",
+        "team": "Middlebury",
+        "date": "Apr 4, 2026"
+      }
+    ],
+    "400": [
+      {
+        "nationalRank": 26,
+        "formerNationalRank": 26,
+        "nescacRank": 2,
+        "formerNescacRank": 2,
+        "NERank": 2,
+        "formerNERank": 2,
+        "athlete": "Caspar, Joseph",
+        "time": "47.39",
+        "team": "Middlebury",
+        "date": "Apr 25, 2026"
+      },
+      {
+        "nationalRank": 95,
+        "formerNationalRank": 95,
+        "nescacRank": 7,
+        "formerNescacRank": 7,
+        "NERank": 10,
+        "formerNERank": 10,
+        "athlete": "Lawton, Wyatt",
+        "time": "48.52",
+        "team": "Middlebury",
+        "date": "Apr 4, 2026"
+      },
+      {
+        "nationalRank": 131,
+        "formerNationalRank": 131,
+        "nescacRank": 10,
+        "formerNescacRank": 10,
+        "NERank": 14,
+        "formerNERank": 14,
+        "athlete": "Kington, Emerson",
+        "time": "48.79",
+        "team": "Middlebury",
+        "date": "Mar 27, 2026"
+      },
+      {
+        "nationalRank": 242,
+        "formerNationalRank": 242,
+        "nescacRank": 18,
+        "formerNescacRank": 18,
+        "NERank": 27,
+        "formerNERank": 27,
+        "athlete": "Bishop, Lachlan",
+        "time": "49.46",
+        "team": "Middlebury",
+        "date": "Apr 18, 2026"
+      },
+      {
+        "nationalRank": 356,
+        "formerNationalRank": 362,
+        "nescacRank": 25,
+        "formerNescacRank": 29,
+        "NERank": 42,
+        "formerNERank": 39,
+        "athlete": "Weihs, Cole",
+        "time": "49.95",
+        "team": "Middlebury",
+        "date": "Mar 27, 2026"
+      },
+      {
+        "nescacRank": 33,
+        "formerNescacRank": 33,
+        "NERank": 62,
+        "formerNERank": 62,
+        "athlete": "Thompson, Ryan",
+        "time": "50.70",
+        "team": "Middlebury",
+        "date": "Apr 4, 2026"
+      },
+      {
+        "nescacRank": 47,
+        "formerNescacRank": 47,
+        "NERank": 106,
+        "formerNERank": 106,
+        "athlete": "Bobowick, Hayden",
+        "time": "51.69",
+        "team": "Middlebury",
+        "date": "Mar 27, 2026"
+      },
+      {
+        "nescacRank": 57,
+        "formerNescacRank": 57,
+        "NERank": 137,
+        "formerNERank": 137,
+        "athlete": "Smith, Caleb",
+        "time": "52.46",
+        "team": "Middlebury",
+        "date": "Apr 10, 2026"
+      },
+      {
+        "nescacRank": 58,
+        "formerNescacRank": 58,
+        "NERank": 139,
+        "formerNERank": 139,
+        "athlete": "Ulrich, Jack",
+        "time": "52.48",
+        "team": "Middlebury",
+        "date": "Apr 18, 2026"
+      },
+      {
+        "nescacRank": 59,
+        "formerNescacRank": 59,
+        "NERank": 140,
+        "formerNERank": 140,
+        "athlete": "Kuelps, Jakob",
+        "time": "52.52",
+        "team": "Middlebury",
+        "date": "Apr 18, 2026"
+      }
+    ],
+    "400h": [
+      {
+        "nationalRank": 9,
+        "formerNationalRank": 9,
+        "nescacRank": 3,
+        "formerNescacRank": 3,
+        "NERank": 3,
+        "formerNERank": 3,
+        "athlete": "Caspar, Joseph",
+        "time": "52.15",
+        "team": "Middlebury",
+        "date": "May 21, 2026"
+      },
+      {
+        "nationalRank": 25,
+        "formerNationalRank": 25,
+        "nescacRank": 5,
+        "formerNescacRank": 5,
+        "NERank": 5,
+        "formerNERank": 5,
+        "athlete": "Gardner, Nathaniel",
+        "time": "52.88",
+        "team": "Middlebury",
+        "date": "Apr 25, 2026"
+      },
+      {
+        "nationalRank": 100,
+        "formerNationalRank": 100,
+        "nescacRank": 11,
+        "formerNescacRank": 11,
+        "NERank": 19,
+        "formerNERank": 19,
+        "athlete": "Loupessis, Parker",
+        "time": "55.01",
+        "team": "Middlebury",
+        "date": "Apr 18, 2026"
+      },
+      {
+        "nationalRank": 194,
+        "formerNationalRank": 194,
+        "nescacRank": 14,
+        "formerNescacRank": 14,
+        "NERank": 35,
+        "formerNERank": 35,
+        "athlete": "Albright, Finn",
+        "time": "56.39",
+        "team": "Middlebury",
+        "date": "Apr 25, 2026"
+      },
+      {
+        "nationalRank": 427,
+        "formerNationalRank": 427,
+        "nescacRank": 23,
+        "formerNescacRank": 23,
+        "NERank": 64,
+        "formerNERank": 64,
+        "athlete": "Thompson, Ryan",
+        "time": "59.07",
+        "team": "Middlebury",
+        "date": "Apr 11, 2026"
+      }
+    ],
+    "110h": [
+      {
+        "nationalRank": 95,
+        "formerNationalRank": 98,
+        "nescacRank": 6,
+        "formerNescacRank": 8,
+        "NERank": 9,
+        "formerNERank": 11,
+        "athlete": "Albright, Finn",
+        "time": "14.86",
+        "team": "Middlebury",
+        "date": "Apr 25, 2026"
+      },
+      {
+        "nationalRank": 113,
+        "formerNationalRank": 113,
+        "nescacRank": 9,
+        "formerNescacRank": 9,
+        "NERank": 13,
+        "formerNERank": 13,
+        "athlete": "Kennedy, Quinn",
+        "time": "14.96",
+        "team": "Middlebury",
+        "date": "Apr 4, 2026"
+      },
+      {
+        "nationalRank": 139,
+        "formerNationalRank": 144,
+        "nescacRank": 10,
+        "formerNescacRank": 8,
+        "NERank": 15,
+        "formerNERank": 17,
+        "athlete": "Loupessis, Parker",
+        "time": "15.08",
+        "team": "Middlebury",
+        "date": "Apr 25, 2026"
+      },
+      {
+        "nationalRank": 237,
+        "formerNationalRank": 237,
+        "nescacRank": 14,
+        "formerNescacRank": 14,
+        "NERank": 28,
+        "formerNERank": 28,
+        "athlete": "Smith, Caleb",
+        "time": "15.46",
+        "team": "Middlebury",
+        "date": "Apr 18, 2026"
+      }
+    ]
+  },
+  "athletePrs": [
+    [
+      "Harvey Jr, Donnell",
+      [
+        {
+          "time": "21.60",
+          "event": "200",
+          "delta": "-0.20",
+          "athlete": {
+            "name": "Harvey Jr, Donnell",
+            "id": "9008358"
+          }
+        }
+      ]
+    ],
+    [
+      "Caspar, Joseph",
+      [
+        {
+          "time": "47.39",
+          "event": "400",
+          "delta": "-0.61",
+          "athlete": {
+            "name": "Caspar, Joseph",
+            "id": "9008355"
+          }
+        }
+      ]
+    ],
+    [
+      "Albright, Finn",
+      [
+        {
+          "time": "14.86",
+          "event": "110H",
+          "delta": "-0.14",
+          "athlete": {
+            "name": "Albright, Finn",
+            "id": "8669909"
+          }
+        }
+      ]
+    ],
+    [
+      "Agnew, Ethan",
+      [
+        {
+          "time": "11.35",
+          "event": "100",
+          "delta": "-0.45",
+          "athlete": {
+            "name": "Agnew, Ethan",
+            "id": "9276480"
+          }
+        }
+      ]
+    ],
+    [
+      "Gardner, Nathaniel",
+      [
+        {
+          "time": "52.88",
+          "event": "400H",
+          "delta": "-0.32",
+          "athlete": {
+            "name": "Gardner, Nathaniel",
+            "id": "9008356"
+          }
+        }
+      ]
+    ],
+    [
+      "Kington, Emerson",
+      [
+        {
+          "time": "48.43",
+          "event": "400",
+          "delta": "-0.07",
+          "athlete": {
+            "name": "Kington, Emerson",
+            "id": "9008359"
+          }
+        }
+      ]
+    ],
+    [
+      "Lawton, Wyatt",
+      [
+        {
+          "time": "48.52",
+          "event": "400",
+          "delta": "-0.98",
+          "athlete": {
+            "name": "Lawton, Wyatt",
+            "id": "9276481"
+          }
+        }
+      ]
+    ],
+    [
+      "Thompson, Ryan",
+      [
+        {
+          "time": "22.85",
+          "event": "200",
+          "delta": "-0.85",
+          "athlete": {
+            "name": "Thompson, Ryan",
+            "id": "8809709"
+          }
+        }
+      ]
+    ]
+  ],
+  "allNewSchoolRecords": [
+    [
+      {
+        "time": "21.60",
+        "event": "200",
+        "yearsSinceBroken": "0",
+        "athlete": {
+          "name": "Harvey Jr, Donnell",
+          "id": "9008358"
+        }
+      }
+    ],
+    [
+      {
+        "time": "47.39",
+        "event": "400",
+        "yearsSinceBroken": "8",
+        "athlete": {
+          "name": "Caspar, Joseph",
+          "id": "9008355"
+        }
+      }
+    ]
+  ]
+}

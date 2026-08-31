@@ -5,19 +5,19 @@ import { evaluatePrs } from "./api/evaluatePrs";
 import { emailV1 } from "./emails/emailV1";
 import type { PersonalRecord } from "./types";
 import { athleteRankings } from "./api/ranks";
+import fs from "fs";
 
 async function main() {
     const browser = await chromium.launch({ headless: true });
     const page = await browser.newPage();
     const currentDate = new Date();
     const isOutdoorSeason = currentDate.getMonth() >= 2 && currentDate.getMonth() <= 10; //March to November
-    const { leaderboards, merged} = await scrapeMiddTF(page, isOutdoorSeason);
+    const merged = await scrapeMiddTF(page, isOutdoorSeason);
     const rankings = await athleteRankings(merged, isOutdoorSeason)
-    console.log(rankings);
     const athletes = await athleteLinks(page);
     const allPrs: PersonalRecord[][] = []
     const allSchoolRecords: PersonalRecord[][] = []
-    for(const athlete of athletes){
+    for (const athlete of athletes) {
         const newPrs = (await evaluatePrs(page, athlete, isOutdoorSeason))
         allPrs.push(newPrs.updatedRecords)
         allSchoolRecords.push(newPrs.newSchoolRecords)
@@ -25,6 +25,14 @@ async function main() {
     const allNewPrs = allPrs.filter(pr => pr.length > 0);
     const athletePrs = [... new Map(allNewPrs.map(pr => [pr[0].athlete.name, pr]))]
     const allNewSchoolRecords = allSchoolRecords.filter(pr => pr.length > 0);
+    fs.writeFileSync(
+        "test-data/email-data.json",
+        JSON.stringify({
+            rankings,
+            athletePrs,
+            allNewSchoolRecords
+        }, null, 2)
+    );
     //const athleteSrs = [... new Map(allNewSchoolRecords.map(pr => [pr[0].athlete.name, pr]))]
     await browser.close()
     await emailV1(rankings, athletePrs, allNewSchoolRecords)
