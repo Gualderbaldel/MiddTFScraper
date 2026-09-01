@@ -1,22 +1,25 @@
 {
-  "name": "MiddTFScraper",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {},
-  "keywords": [],
-  "author": "Sebastian Pantzer <spantzer@middlebury.edu>",
-  "license": "Apache-2.0",
-  "packageManager": "pnpm@10.18.3",
-  "devDependencies": {
-    "@playwright/test": "^1.62.1",
-    "@types/node": "^26.2.0"
-  },
-  "dependencies": {
-    "@azure/msal-node": "^5.6.0",
-    "@azure/msal-node-extensions": "^5.4.0",
-    "@supabase/supabase-js": "^2.112.4",
-    "date-fns": "^4.4.0",
-    "dotenv": "^17.4.2"
-  }
+	"name": "MiddTFScraper",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {},
+	"keywords": [],
+	"author": "Sebastian Pantzer <spantzer@middlebury.edu>",
+	"license": "Apache-2.0",
+	"packageManager": "pnpm@10.18.3",
+	"devDependencies": {
+		"@biomejs/biome": "^2.5.11",
+		"@playwright/test": "^1.62.1",
+		"@types/node": "^26.2.0",
+		"@types/nodemailer": "^8.0.1"
+	},
+	"dependencies": {
+		"@azure/msal-node": "^5.6.0",
+		"@azure/msal-node-extensions": "^5.4.0",
+		"@supabase/supabase-js": "^2.112.4",
+		"date-fns": "^4.4.0",
+		"dotenv": "^17.4.2",
+		"nodemailer": "^9.1.0"
+	}
 }

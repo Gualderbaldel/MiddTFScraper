@@ -1,20 +1,11 @@
-import fs from "fs";
+import fs from "node:fs";
 import { emailV1 } from "./emailV1";
 
-async function main(){
+async function main() {
+	const { rankings, athletePrs, allNewSchoolRecords } = JSON.parse(
+		fs.readFileSync("test-data/email-data.json", "utf-8"),
+	);
+	emailV1(rankings, athletePrs, allNewSchoolRecords);
+}
 
-
-    const {
-    rankings,
-    athletePrs,
-    allNewSchoolRecords
-} = JSON.parse(
-    fs.readFileSync("test-data/email-data.json", "utf-8")
-);
-emailV1(
-    rankings,
-    athletePrs,
-    allNewSchoolRecords
-);}
-
-main()
+main();

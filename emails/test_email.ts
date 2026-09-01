@@ -1,8 +1,8 @@
 import { sendEmail } from "./send_email";
 
 export async function testEmail() {
-    const timestamp = new Date().toISOString();
-    const body = `
+	const timestamp = new Date().toISOString();
+	const body = `
     <!DOCTYPE html>
     <html>
     <head>
@@ -15,11 +15,9 @@ export async function testEmail() {
     </body>
     </html>
     `;
-    await sendEmail(
-        "Test from my Playwright scraper",
-        body,
-        ["fortniteburger170@gmail.com"]
-    );
+	await sendEmail("Test from my Playwright scraper", body, [
+		"fortniteburger170@gmail.com",
+	]);
 }
 
 testEmail();

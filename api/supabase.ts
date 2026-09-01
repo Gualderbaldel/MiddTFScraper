@@ -6,10 +6,7 @@ const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
 console.log("Supabase URL:", supabaseUrl);
 console.log("Supabase Key:", supabaseKey ? "********" : "Not Set");
 if (!supabaseUrl || !supabaseKey) {
-    throw new Error("Missing Supabase environment variables");
+	throw new Error("Missing Supabase environment variables");
 }
 
-export const supabase = createClient(
-    supabaseUrl,
-    supabaseKey
-);
+export const supabase = createClient(supabaseUrl, supabaseKey);

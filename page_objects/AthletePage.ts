@@ -1,23 +1,21 @@
 import type { Page } from "@playwright/test";
 
 export class AthletePage {
-    private page: Page;
+	private page: Page;
 
-    constructor(page: Page) {
-        this.page = page;
-    }
+	constructor(page: Page) {
+		this.page = page;
+	}
 
-    async goto(url: string) {
-        await this.page.goto(url);
-    }
+	async goto(url: string) {
+		await this.page.goto(url);
+	}
 
-    getMeetResults() {
-        return this.page.locator('table.table-hover')
-    }
+	getMeetResults() {
+		return this.page.locator("table.table-hover");
+	}
 
-    getPRs() {
-    return this.page
-        .locator("#meet-results tr.highlight");
-}
-
+	getPRs() {
+		return this.page.locator("#meet-results tr.highlight");
+	}
 }

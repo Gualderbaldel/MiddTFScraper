@@ -1,8 +1,8 @@
-import type { Leaderboard, PersonalRecord } from "../types";
-import { sendEmail } from "./send_email";
+import type { Leaderboard, PersonalRecord } from "../types/types";
 import { format, subWeeks } from "date-fns";
-import fs from "fs";
-import path from "path";
+import fs from "node:fs";
+import path from "node:path";
+import { sendEmailNodemailer } from "./node_email";
 
 export async function emailV1(
     leaderboard: Leaderboard,
@@ -306,7 +306,7 @@ export async function emailV1(
     `;
 
 
-    const previewPath = path.join(process.cwd(), "preview.html");
+    const previewPath = path.join(process.cwd(), "test-data/preview.html");
 
     fs.writeFileSync(
         previewPath,
@@ -327,15 +327,17 @@ export async function emailV1(
     </html>
     `
     );
-    await sendEmail(
-        "Midd Sprints Weekly Report: " + formattedWeekBefore + "-" + formattedDate,
-        body,
-        ["slide4von1997@gmail.com", "parkerloups@icloud.com", "zachmckay81@gmail.com" ]
+    await sendEmailNodemailer(
+        `Midd·Sprints·Weekly·Report:·${formattedWeekBefore}-${formattedDate}`,
+        body,["sebastianpantzer@gmail.com"]
+
     );
 }
-/*        ["slide4von1997@gmail.com", "spantzer@middlebury.edu", "ryanpthompson2005@gmail.com",
-             "ethanagnew31@gmail.com", "cweihs06@gmail.com", 'hstonebob@gmail.com', 
-            "wyattrlawton@gmail.com", "nategardnern@gmail.com" ]*/
+/*               ["slide4von1997@gmail.com", "spantzer@middlebury.edu", "rpthompson@middlebury.edu",
+            "eagnew@middlebury.edu", "falbright@middlebury.edu", "hbobowick@middlebury.edu"
+            , "ekington@middlebury.edu", "jcaspar@middlebury.edu", "ngardner@middlebury.edu"
+            , "dlharvey@middlebury.edu", "shoiland@middlebury.edu", "cweihs@middlebury.edu"
+            , "ploupessis@middlebury.edu", "wlawton@middlebury.edu", "avigneaux@middlebury.edu", "zmckay@middlebury.edu"]*/
 // "ryanpthompson2005@gmail.com", "ethanagnew31@gmail.com"
 function formatRank(
     current: number | undefined,
